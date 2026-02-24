@@ -7,7 +7,7 @@ const menuItems = [
     image: "assets/images/edika-ikong-soup(10k).jpg",
   },
   {
-    name: "Fried Rice with Chicken",
+    name: "Fried Rice with Chicken and Salad",
     price: "₦5000",
     description: "A flavorful dish of fried rice served with tender chicken and a side of salad",
     image: "assets/images/friedrice-chicken-with-salad(5k).jpeg",
@@ -24,6 +24,12 @@ const menuItems = [
     description: "A hearty soup made with a variety of fresh vegetables, perfect for a healthy meal",
     image: "assets/images/vegetable-beef-and-ponmo-with-swallow(10k).jpg",
   },
+  {
+    name: "Jollof Plantain and Chicken",
+    price: "₦5000",
+    description: "A delicious twist on the classic jollof rice, made with plantains and served with tender chicken",
+    image: "assets/images/jollof-plantain-and-chicken.jpg",
+  }
 ];
 
 const menuGrid = document.getElementById("menuGrid");
